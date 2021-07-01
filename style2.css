@@ -1,0 +1,23 @@
+div.img-hidden {
+    height: 300px;
+    overflow: hidden;
+}
+
+div.container-m {
+    margin-top: 80px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+body{
+    display:flex;
+}

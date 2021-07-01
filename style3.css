@@ -1,0 +1,258 @@
+ul{
+    list-style: none;
+}
+
+li{
+    margin-top: 5px;
+}
+.container-1{
+    position: relative;
+}
+
+.main1{
+    position: absolute;
+    top: 180px;
+    right: 1px;
+    -webkit-clip-path: polygon(0 0, 100% 100%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.main2{
+    position: absolute;
+    top: 435px;
+    right: 1px;
+    -webkit-clip-path: polygon(0 0, 100% 100%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    z-index: 2;
+}
+
+.main3{
+    position: absolute;
+    top: 675px;
+    right: 1px;
+    -webkit-clip-path: polygon(0 0, 100% 100%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    z-index: 3;
+}
+.navbar-brand{
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.title{
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+    height: 900px;
+    margin-top: 75px;
+    color: #fff;
+    font-family: 'Berkshire Swash', cursive;
+    -webkit-clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 100%);
+    z-index: 1;
+}
+
+.box1{
+    position: relative;
+    margin-top: 50px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.sub1{
+    -webkit-clip-path: polygon(0 0, 40% 100%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 40% 0, 100% 100%, 0% 100%);
+    object-fit: cover;
+    width:100%;
+    height: 300px;
+}
+
+
+.subtext1{
+    position:absolute;
+    color: #fff;
+    top: 50px;
+    right: 30px;
+    font-size: 120%;
+}
+
+.bt1{
+    position: absolute;
+    top: 100px;
+    right: 30px;
+}
+
+.sub2{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 100%);
+    object-fit: cover;
+    width:100%;
+    height: 300px;
+}
+
+.subtext2{
+    position:absolute;
+    color: #fff;
+    bottom: 100px;
+    left: 30px;
+    font-size: 120%;
+}
+
+.bt2{
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+}
+
+.box2{
+    position: relative;
+    margin-top: 50px;
+    background-color:orangered;
+    opacity: 0.7;
+}
+
+.bt3{
+    position: absolute;
+    top:120px;
+    right: 30px;
+}
+
+.sub3{
+    -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 50% 100%, 0 100%);
+    object-fit: cover;
+    width:100%;
+    height: 300px;
+}
+
+.subtext3{
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+    color:#fff;
+}
+
+.box3{
+    position: relative;
+    margin-top: 50px;
+    background-color:royalblue;
+    opacity: 0.7;
+    font-size: 120%;
+}
+
+.bt4{
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+}
+
+#.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, white 50%, black 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+.container3{
+      background-color: black;
+      width: 100%;
+      height: 200px;
+}
+
+.info{
+    float: left;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 120%;
+}
+
+.chara{
+    float: left;
+    font-size: 1rem;
+    padding-top: 20px;
+    width: 200px;
+}
+
+.tit{
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 75px;
+    font-size: 200%;
+    padding: 50px;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    color: black;
+    background-color: #fff;
+
+}
+.fname{
+    margin-left: 50px;
+}
+.ftx1{
+    text-decoration: none;
+}
+
+.ftx2{
+    margin-left: 60px;
+    margin-top: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.tit{
+    float: right;
+}
+
+.container4{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 150%;
+}
+
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #fff 50%, black 60%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+  
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
